@@ -977,3 +977,149 @@ You can create and save your custom layouts with "Window"->"Save Layout"->"Save 
 [2022.03.07-21.54.03:324][168]AssetCheck: New page: Asset Save: multiple assets
 [2022.03.07-21.54.03:324][168]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Mars_BuiltData.Mars_BuiltData
 [2022.03.07-21.54.03:324][168]LogContentValidation: Display: Validating World /Game/Mars.Mars
+[2022.03.07-21.55.01:248][ 86]LogSlate: Window 'Color Picker' being destroyed
+[2022.03.07-21.55.15:028][654]LogSlate: Window 'Color Picker' being destroyed
+[2022.03.07-21.55.28:236][172]LogSlate: Window 'Color Picker' being destroyed
+[2022.03.07-21.56.41:756][ 20]LogSlate: Took 0.004723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.03.07-21.56.41:776][ 20]LogSlate: Took 0.004719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.03.07-21.56.46:872][605]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.03.07-21.56.46:886][605]LogContentBrowser: Creating deferred item: NewFolder
+[2022.03.07-21.56.49:859][948]LogContentBrowser: Attempting asset rename: NewFolder -> MyStuff
+[2022.03.07-21.56.49:859][948]LogContentBrowser: End creating deferred item NewFolder
+[2022.03.07-21.56.56:027][670]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.03.07-21.56.56:039][670]LogContentBrowser: Creating deferred item: NewFolder
+[2022.03.07-21.57.02:792][456]LogContentBrowser: Attempting asset rename: NewFolder -> Terrain
+[2022.03.07-21.57.02:793][456]LogContentBrowser: End creating deferred item NewFolder
+[2022.03.07-21.57.07:054][863]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\George\Pictures\mars_heightmap.jpg)
+[2022.03.07-21.57.07:064][863]LogTexture: Display: Building textures: mars_heightmap (BGRA8, 1024X501)
+[2022.03.07-21.57.07:064][863]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SViewport [SEditorViewport.cpp(55)].
+[2022.03.07-21.57.12:254][ 23]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/MyStuff/Terrain/mars_heightmap.mars_heightmap
+[2022.03.07-21.57.12:266][ 23]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2022.03.07-21.57.20:066][923]LogTexture: Display: Building textures: mars_heightmap (BGRA8, 1024X501)
+[2022.03.07-21.57.22:143][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyStuff/Terrain/mars_heightmap" FILE="../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Content/MyStuff/Terrain/mars_heightmap.uasset" SILENT=true
+[2022.03.07-21.57.22:163][151]LogSavePackage: Moving '../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Saved/mars_heightmap04B6A82C4C08B1372E7A169B31AB1FCC.tmp' to '../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Content/MyStuff/Terrain/mars_heightmap.uasset'
+[2022.03.07-21.57.22:172][151]AssetCheck: New page: Asset Save: mars_heightmap
+[2022.03.07-21.57.22:172][151]LogContentValidation: Display: Validating Texture2D /Game/MyStuff/Terrain/mars_heightmap.mars_heightmap
+[2022.03.07-21.57.25:327][482]LogSlate: Window 'mars_heightmap' being destroyed
+[2022.03.07-21.57.29:713][994]Cmd: DELETE
+[2022.03.07-21.57.29:714][994]Cmd: ACTOR DELETE
+[2022.03.07-21.57.29:726][994]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.07-21.57.29:733][994]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.03.07-21.57.29:733][994]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2022.03.07-21.57.34:196][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mars" FILE="../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Content/Mars.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.07-21.57.34:207][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.03.07-21.57.34:213][522]LogSavePackage: Moving '../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Saved/MarsCBACBABF47994CD51E9082904E36D793.tmp' to '../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Content/Mars.umap'
+[2022.03.07-21.57.34:216][522]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Mars_BuiltData
+[2022.03.07-21.57.34:216][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mars_BuiltData" FILE="../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Content/Mars_BuiltData.uasset" SILENT=true
+[2022.03.07-21.57.34:227][522]LogSavePackage: Moving '../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Saved/Mars_BuiltDataC95380174DF3B04A033FE59BC5F8CA86.tmp' to '../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Content/Mars_BuiltData.uasset'
+[2022.03.07-21.57.34:228][522]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Mars_BuiltData
+[2022.03.07-21.57.34:235][522]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.07-21.57.34:235][522]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Mars_BuiltData.Mars_BuiltData
+[2022.03.07-21.57.34:235][522]LogContentValidation: Display: Validating World /Game/Mars.Mars
+[2022.03.07-21.57.36:567][798]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 4FF196ABFFFCEBB8D8AE395916D138C1ADBCE313), compiling. 
+[2022.03.07-21.57.36:616][798]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 3BD53B739B8AD2846D1A3E2DE1243379F31F287A), compiling. 
+[2022.03.07-21.57.36:650][798]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_2 in PCD3D_SM5, Default, SM5 (DDC key hash: B78BF8A0410665A86021C2872103AA8F5B9EFA87), compiling. 
+[2022.03.07-21.57.36:687][798]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 3573F1572E6F7FA3425AC7CDB9C4C1324AA7C973), compiling. 
+[2022.03.07-21.57.36:713][798]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_4 in PCD3D_SM5, Default, SM5 (DDC key hash: CF1B6236279F206B6AA05C9DC4F4546F74DE6080), compiling. 
+[2022.03.07-21.57.36:743][798]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 76B3A027E5E758B7DC842EE1C28B3E889E5F4DC9), compiling. 
+[2022.03.07-21.57.36:774][798]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 28BD48C67D3DADC48326C01CD6CAC81167D7E17B), compiling. 
+[2022.03.07-21.57.36:803][798]LogStaticMesh: StaticMesh /Engine/EditorLandscapeResources/FlattenPlaneMesh.FlattenPlaneMesh should be resaved to improve async compilation performance.
+[2022.03.07-21.57.36:815][798]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_7 in PCD3D_SM5, Default, SM5 (DDC key hash: 3CA12D23D1389512BA06E2BA783D5328A65E8556), compiling. 
+[2022.03.07-21.57.36:841][798]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_8 in PCD3D_SM5, Default, SM5 (DDC key hash: DC28C7EF54EA9C3AC148CF941245497F97213CE6), compiling. 
+[2022.03.07-21.57.36:870][798]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_9 in PCD3D_SM5, Default, SM5 (DDC key hash: 08B7327CF3E97979C3C876E869AFA38E0E532BF0), compiling. 
+[2022.03.07-21.57.36:898][798]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_10 in PCD3D_SM5, Default, SM5 (DDC key hash: 3931E6DC7DC0367BF75D00B0BF8DC528C2B2BEF9), compiling. 
+[2022.03.07-21.57.36:927][798]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_11 in PCD3D_SM5, Default, SM5 (DDC key hash: 27BFAC08A27E6091FE2CECA013213FFA8A7D0FC1), compiling. 
+[2022.03.07-21.57.36:960][798]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_12 in PCD3D_SM5, Default, SM5 (DDC key hash: 5F9E4F8E1C593364F158EF177CE6AC9412CA3240), compiling. 
+[2022.03.07-21.57.36:990][798]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_14 in PCD3D_SM5, Default, SM5 (DDC key hash: ECADB7FAAC0C9F951C053E70F1E233E366C37D23), compiling. 
+[2022.03.07-21.57.37:083][798]LogTexture: Display: Building textures: Texture2D_7 (G8, 128X128)
+[2022.03.07-21.57.37:814][834]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.07-21.57.37:814][834]LogShaderCompilers: Display: Total job queries 424, among them cache hits 0 (0.00%)
+[2022.03.07-21.57.37:814][834]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2022.03.07-21.57.37:814][834]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.03.07-21.57.37:814][834]LogShaderCompilers: Display: ================================================
+[2022.03.07-21.58.46:006][550]Cmd: TRANSACTION UNDO
+[2022.03.07-21.58.46:007][550]LogEditorTransaction: Undo Edit Section Size
+[2022.03.07-21.58.48:640][811]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2022.03.07-21.58.48:644][811]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_0 in PCD3D_SM5, Default, SM5 (DDC key hash: BDE69EEA457EF6DA85ECAA71BAB693DBC41A3B89), compiling. Is special engine material.
+[2022.03.07-21.58.52:729][811]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2022.03.07-21.58.52:729][811]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.049588s
+[2022.03.07-21.58.57:078][811]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 6.393990s (4.393990s overbudget)
+[2022.03.07-21.58.57:194][811]LogAudioMixer: Resetting audio stream to device id 
+[2022.03.07-21.58.57:199][811]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.07-21.58.57:199][811]LogAudioMixer: Display: 1: FrontRight
+[2022.03.07-21.58.57:199][811]LogAudioMixer: Display: 2: FrontCenter
+[2022.03.07-21.58.57:199][811]LogAudioMixer: Display: 3: LowFrequency
+[2022.03.07-21.58.57:199][811]LogAudioMixer: Display: 4: BackLeft
+[2022.03.07-21.58.57:199][811]LogAudioMixer: Display: 5: BackRight
+[2022.03.07-21.58.57:199][811]LogAudioMixer: Display: 6: SideLeft
+[2022.03.07-21.58.57:199][811]LogAudioMixer: Display: 7: SideRight
+[2022.03.07-21.59.04:635][652]Cmd: SELECT NONE
+[2022.03.07-21.59.47:567][778]LogEditorFactories: Performing atomic reimport of [C:/Users/George/Pictures/mars_heightmap.png]
+[2022.03.07-21.59.47:570][778]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/George/Pictures/mars_heightmap.png)
+[2022.03.07-21.59.47:577][778]LogEditorFactories: -- imported successfully
+[2022.03.07-21.59.47:582][778]LogTexture: Display: Building textures: mars_heightmap (BGRA8, 1024X501)
+[2022.03.07-22.00.09:660][733]Cmd: TRANSACTION UNDO
+[2022.03.07-22.00.09:660][733]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2022.03.07-22.00.09:676][733]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2022.03.07-22.00.09:849][738]Cmd: TRANSACTION UNDO
+[2022.03.07-22.00.09:849][738]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2022.03.07-22.00.13:364][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyStuff/Terrain/mars_heightmap" FILE="../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Content/MyStuff/Terrain/mars_heightmap.uasset" SILENT=true
+[2022.03.07-22.00.13:368][117]LogSavePackage: Moving '../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Saved/mars_heightmap6262FF10456136214969F5A1CBDC7542.tmp' to '../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Content/MyStuff/Terrain/mars_heightmap.uasset'
+[2022.03.07-22.00.13:375][117]AssetCheck: New page: Asset Save: mars_heightmap
+[2022.03.07-22.00.13:375][117]LogContentValidation: Display: Validating Texture2D /Game/MyStuff/Terrain/mars_heightmap.mars_heightmap
+[2022.03.07-22.00.19:956][882]Cmd: DELETE
+[2022.03.07-22.00.19:956][882]Cmd: ACTOR DELETE
+[2022.03.07-22.00.19:958][882]LogEditorActor: Deleted Actor: LandscapeGizmoActiveActor
+[2022.03.07-22.00.19:964][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.03.07-22.00.19:965][882]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2022.03.07-22.00.21:799][ 98]Cmd: DELETE
+[2022.03.07-22.00.21:799][ 98]Cmd: ACTOR DELETE
+[2022.03.07-22.00.21:802][ 98]LogEditorActor: Deleted Actor: Landscape
+[2022.03.07-22.00.21:817][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.03.07-22.00.21:818][ 98]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2022.03.07-22.00.23:133][250]LogTexture: Display: Building textures: Texture2D_8 (G8, 128X128)
+[2022.03.07-22.00.46:114][325]Cmd: TRANSACTION UNDO
+[2022.03.07-22.00.46:114][325]LogEditorTransaction: Undo Delete Elements
+[2022.03.07-22.00.47:227][409]Cmd: TRANSACTION UNDO
+[2022.03.07-22.00.47:227][409]LogEditorTransaction: Undo Clicking on Actors
+[2022.03.07-22.00.59:871][919]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.03.07-22.00.59:871][919]Can't find target actor or component.
+[2022.03.07-22.03.15:583][ 91]Cmd: TRANSACTION UNDO
+[2022.03.07-22.03.15:583][ 91]LogEditorTransaction: Undo Landscape Editing: Noise
+[2022.03.07-22.03.15:601][ 91]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2022.03.07-22.03.16:158][112]Cmd: TRANSACTION UNDO
+[2022.03.07-22.03.16:158][112]LogEditorTransaction: Undo Landscape Editing: Noise
+[2022.03.07-22.03.16:177][113]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2022.03.07-22.04.36:762][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mars" FILE="../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Content/Mars.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.07-22.04.36:768][666]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.03.07-22.04.36:835][666]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2022.03.07-22.04.36:835][666]LogSavePackage: Moving '../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Saved/Mars5B80ADDC4208A4600E50098C20440C3E.tmp' to '../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Content/Mars.umap'
+[2022.03.07-22.04.36:838][666]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Mars_BuiltData
+[2022.03.07-22.04.36:838][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mars_BuiltData" FILE="../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Content/Mars_BuiltData.uasset" SILENT=true
+[2022.03.07-22.04.36:850][666]LogSavePackage: Moving '../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Saved/Mars_BuiltData0327CB4C48FB21D496F38284D8BB9E71.tmp' to '../../../../GitHub/UE5_MartianTerrain/UE5_MartianTerrain/MartianTerrain/Content/Mars_BuiltData.uasset'
+[2022.03.07-22.04.36:851][666]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Mars_BuiltData
+[2022.03.07-22.04.36:857][666]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.07-22.04.36:857][666]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Mars_BuiltData.Mars_BuiltData
+[2022.03.07-22.04.36:857][666]LogContentValidation: Display: Validating World /Game/Mars.Mars
+[2022.03.07-22.04.53:381][599]Cmd: TRANSACTION UNDO
+[2022.03.07-22.04.53:381][599]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2022.03.07-22.05.23:842][  2]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.03.07-22.05.26:859][285]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.03.07-22.05.41:179][872]Cmd: TRANSACTION UNDO
+[2022.03.07-22.05.41:179][872]LogEditorTransaction: Undo Clicking on Elements
+[2022.03.07-22.05.47:227][546]Cmd: DELETE
+[2022.03.07-22.05.47:228][546]Cmd: ACTOR DELETE
+[2022.03.07-22.05.47:229][546]LogEditorActor: Deleted Actor: PlayerStart
+[2022.03.07-22.05.47:233][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.03.07-22.05.47:236][546]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.03.07-22.05.58:274][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.03.07-22.05.59:461][860]LogSlate: Window 'Delete Assets' being destroyed
+[2022.03.07-22.05.59:480][860]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/MyStuff/Terrain/mars_heightmap.mars_heightmap
+[2022.03.07-22.05.59:648][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.03.07-22.05.59:653][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.03.07-22.05.59:655][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
